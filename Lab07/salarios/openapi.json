@@ -1,0 +1,47 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "salarios",
+    "version": "1.0.0",
+    "description": "salarios"
+  },
+  "servers": [
+    {
+      "url": "/salarios/v1"
+    }
+  ],
+  "paths": {
+    "/salarios": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "success"
+          }
+        },
+        "parameters": [
+          {
+            "in": "query",
+            "name": "nombre",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "salario",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "cargo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
