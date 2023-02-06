@@ -1,0 +1,56 @@
+
+====== Starting plaintext trace (process ID 8561 - integration_server.TEST_SERVER) ======
+=== Build ib000-L221122.2891 (S000-L221121.11996) - IBM App Connect Enterprise 12.0.7.0 ===
+=== Platform Linux / x86_64 / 5.15.0-1028-aws ===
+=== Timestamps are formatted in local time, which is GMT ===
+=== Time now 2023-01-25 20:01:52.407568 ===
+
+2023-01-25 20:08:54.670184     8489  UserTrace   BIP2380I: ACE message flow statistics.   ProcessID='8452',   Key='0',   Type='SnapShot',   Reason='Shutdown',   integrationNodeLabel='integration_server',   integrationNodeUUID='',   integrationServerName='TEST_SERVER',   integrationServerUUID='00000000-0000-0000-0000-000000000000',   MessageFlowName='RouteFlow',   StartDate='2023-01-25',   StartTime='20:08:34.844180',   GMTStartTime='2023-01-25T20:08:34.844+00:00',   EndDate='2023-01-25',   GMTEndTime='2023-01-25T20:08:54.016+00:00',   EndTime='20:08:54.016354',   TotalElapsedTime='0',   MaximumElapsedTime='0',   MinimumElapsedTime='0',   TotalCPUTime='0',   MaximumCPUTime='0',   MinimumCPUTime='0',   CPUTimeWaitingForInputMessage='30208',   ElapsedTimeWaitingForInputMessage='19170329',   TotalInputMessages='0',   TotalSizeOfInputMessages='0',   MaximumSizeOfInputMessages='0',   MinimumSizeOfInputMessages='0',   NumberOfThreadsInPool='1',   TimesMaximumNumberOfThreadsReached='0',   TotalNumberOfMQErrors='0',   TotalNumberOfMessagesWithErrors='0',   TotalNumberOfErrorsProcessingMessages='0',   TotalNumberOfTimeOuts='0',   TotalNumberOfCommits='0',   TotalNumberOfBackouts='19',   AccountingOrigin='Anonymous'. 
+Statistical information for message flow 'RouteFlow' in integration node 'integration_server'. 
+This is an information message produced by ACE statistics. 
+2023-01-25 20:08:54.670300     8489  UserTrace   BIP2382I: ACE node statistics.   ProcessID='8452',   Key='0',   Label='FAILURE',   Type='MQOutputNode',   TotalElapsedTime='0',   MaximumElapsedTime='0',   MinimumElapsedTime='0',   TotalCPUTime='0',   MaximumCPUTime='0',   MinimumCPUTime='0',   CountOfInvocations='0',   NumberOfInputTerminals='1',   NumberOfOutputTerminals='2'.   
+Statistical information for node 'FAILURE'. 
+This is an information message produced by ACE statistics. 
+2023-01-25 20:08:54.670328     8489  UserTrace   BIP2382I: ACE node statistics.   ProcessID='8452',   Key='0',   Label='Route',   Type='RouteNode',   TotalElapsedTime='0',   MaximumElapsedTime='0',   MinimumElapsedTime='0',   TotalCPUTime='0',   MaximumCPUTime='0',   MinimumCPUTime='0',   CountOfInvocations='0',   NumberOfInputTerminals='1',   NumberOfOutputTerminals='6'.   
+Statistical information for node 'Route'. 
+This is an information message produced by ACE statistics. 
+2023-01-25 20:08:54.670344     8489  UserTrace   BIP2382I: ACE node statistics.   ProcessID='8452',   Key='0',   Label='STOREA',   Type='MQOutputNode',   TotalElapsedTime='0',   MaximumElapsedTime='0',   MinimumElapsedTime='0',   TotalCPUTime='0',   MaximumCPUTime='0',   MinimumCPUTime='0',   CountOfInvocations='0',   NumberOfInputTerminals='1',   NumberOfOutputTerminals='2'.   
+Statistical information for node 'STOREA'. 
+This is an information message produced by ACE statistics. 
+2023-01-25 20:08:54.670364     8489  UserTrace   BIP2382I: ACE node statistics.   ProcessID='8452',   Key='0',   Label='STOREB',   Type='MQOutputNode',   TotalElapsedTime='0',   MaximumElapsedTime='0',   MinimumElapsedTime='0',   TotalCPUTime='0',   MaximumCPUTime='0',   MinimumCPUTime='0',   CountOfInvocations='0',   NumberOfInputTerminals='1',   NumberOfOutputTerminals='2'.   
+Statistical information for node 'STOREB'. 
+This is an information message produced by ACE statistics. 
+2023-01-25 20:08:54.670384     8489  UserTrace   BIP2382I: ACE node statistics.   ProcessID='8452',   Key='0',   Label='STOREC',   Type='MQOutputNode',   TotalElapsedTime='0',   MaximumElapsedTime='0',   MinimumElapsedTime='0',   TotalCPUTime='0',   MaximumCPUTime='0',   MinimumCPUTime='0',   CountOfInvocations='0',   NumberOfInputTerminals='1',   NumberOfOutputTerminals='2'.   
+Statistical information for node 'STOREC'. 
+This is an information message produced by ACE statistics. 
+2023-01-25 20:08:54.670412     8489  UserTrace   BIP2382I: ACE node statistics.   ProcessID='8452',   Key='0',   Label='STORES',   Type='MQInputNode',   TotalElapsedTime='0',   MaximumElapsedTime='0',   MinimumElapsedTime='0',   TotalCPUTime='0',   MaximumCPUTime='0',   MinimumCPUTime='0',   CountOfInvocations='0',   NumberOfInputTerminals='0',   NumberOfOutputTerminals='3'.   
+Statistical information for node 'STORES'. 
+This is an information message produced by ACE statistics. 
+
+====== Starting plaintext trace (process ID 9024 - integration_server.TEST_SERVER) ======
+=== Build ib000-L221122.2891 (S000-L221121.11996) - IBM App Connect Enterprise 12.0.7.0 ===
+=== Platform Linux / x86_64 / 5.15.0-1028-aws ===
+=== Timestamps are formatted in local time, which is GMT ===
+=== Time now 2023-01-25 20:17:49.022228 ===
+
+2023-01-25 21:05:06.298457     9063  UserTrace   BIP2380I: ACE message flow statistics.   ProcessID='9024',   Key='0',   Type='SnapShot',   Reason='Shutdown',   integrationNodeLabel='integration_server',   integrationNodeUUID='',   integrationServerName='TEST_SERVER',   integrationServerUUID='00000000-0000-0000-0000-000000000000',   MessageFlowName='RouteFlow',   StartDate='2023-01-25',   StartTime='21:04:39.934910',   GMTStartTime='2023-01-25T21:04:39.934+00:00',   EndDate='2023-01-25',   GMTEndTime='2023-01-25T21:05:04.946+00:00',   EndTime='21:05:04.946905',   TotalElapsedTime='0',   MaximumElapsedTime='0',   MinimumElapsedTime='0',   TotalCPUTime='0',   MaximumCPUTime='0',   MinimumCPUTime='0',   CPUTimeWaitingForInputMessage='1849',   ElapsedTimeWaitingForInputMessage='25010963',   TotalInputMessages='0',   TotalSizeOfInputMessages='0',   MaximumSizeOfInputMessages='0',   MinimumSizeOfInputMessages='0',   NumberOfThreadsInPool='1',   TimesMaximumNumberOfThreadsReached='0',   TotalNumberOfMQErrors='0',   TotalNumberOfMessagesWithErrors='0',   TotalNumberOfErrorsProcessingMessages='0',   TotalNumberOfTimeOuts='0',   TotalNumberOfCommits='0',   TotalNumberOfBackouts='0',   AccountingOrigin='Anonymous'. 
+Statistical information for message flow 'RouteFlow' in integration node 'integration_server'. 
+This is an information message produced by ACE statistics. 
+2023-01-25 21:05:06.298575     9063  UserTrace   BIP2382I: ACE node statistics.   ProcessID='9024',   Key='0',   Label='FAILURE',   Type='MQOutputNode',   TotalElapsedTime='0',   MaximumElapsedTime='0',   MinimumElapsedTime='0',   TotalCPUTime='0',   MaximumCPUTime='0',   MinimumCPUTime='0',   CountOfInvocations='0',   NumberOfInputTerminals='1',   NumberOfOutputTerminals='2'.   
+Statistical information for node 'FAILURE'. 
+This is an information message produced by ACE statistics. 
+2023-01-25 21:05:06.298600     9063  UserTrace   BIP2382I: ACE node statistics.   ProcessID='9024',   Key='0',   Label='Route',   Type='RouteNode',   TotalElapsedTime='0',   MaximumElapsedTime='0',   MinimumElapsedTime='0',   TotalCPUTime='0',   MaximumCPUTime='0',   MinimumCPUTime='0',   CountOfInvocations='0',   NumberOfInputTerminals='1',   NumberOfOutputTerminals='6'.   
+Statistical information for node 'Route'. 
+This is an information message produced by ACE statistics. 
+2023-01-25 21:05:06.298620     9063  UserTrace   BIP2382I: ACE node statistics.   ProcessID='9024',   Key='0',   Label='STOREA',   Type='MQOutputNode',   TotalElapsedTime='0',   MaximumElapsedTime='0',   MinimumElapsedTime='0',   TotalCPUTime='0',   MaximumCPUTime='0',   MinimumCPUTime='0',   CountOfInvocations='0',   NumberOfInputTerminals='1',   NumberOfOutputTerminals='2'.   
+Statistical information for node 'STOREA'. 
+This is an information message produced by ACE statistics. 
+2023-01-25 21:05:06.298639     9063  UserTrace   BIP2382I: ACE node statistics.   ProcessID='9024',   Key='0',   Label='STOREB',   Type='MQOutputNode',   TotalElapsedTime='0',   MaximumElapsedTime='0',   MinimumElapsedTime='0',   TotalCPUTime='0',   MaximumCPUTime='0',   MinimumCPUTime='0',   CountOfInvocations='0',   NumberOfInputTerminals='1',   NumberOfOutputTerminals='2'.   
+Statistical information for node 'STOREB'. 
+This is an information message produced by ACE statistics. 
+2023-01-25 21:05:06.298669     9063  UserTrace   BIP2382I: ACE node statistics.   ProcessID='9024',   Key='0',   Label='STOREC',   Type='MQOutputNode',   TotalElapsedTime='0',   MaximumElapsedTime='0',   MinimumElapsedTime='0',   TotalCPUTime='0',   MaximumCPUTime='0',   MinimumCPUTime='0',   CountOfInvocations='0',   NumberOfInputTerminals='1',   NumberOfOutputTerminals='2'.   
+Statistical information for node 'STOREC'. 
+This is an information message produced by ACE statistics. 
+2023-01-25 21:05:06.298688     9063  UserTrace   BIP2382I: ACE node statistics.   ProcessID='9024',   Key='0',   Label='STORES',   Type='MQInputNode',   TotalElapsedTime='0',   MaximumElapsedTime='0',   MinimumElapsedTime='0',   TotalCPUTime='0',   MaximumCPUTime='0',   MinimumCPUTime='0',   CountOfInvocations='0',   NumberOfInputTerminals='0',   NumberOfOutputTerminals='3'.   
+Statistical information for node 'STORES'. 
+This is an information message produced by ACE statistics. 

@@ -1,0 +1,81 @@
+2023-01-25 20:17:49.031048Z: [Thread 9024] (Msg 1/1) BIP1990I: Integration server 'TEST_SERVER' starting initialization; version '12.0.7.0' (64-bit) 
+2023-01-25 20:17:49.044380Z: [Thread 9024] (Msg 1/1) BIP9905I: Initializing resource managers. 
+2023-01-25 20:17:53.861040Z: [Thread 9024] (Msg 1/1) BIP9906I: Reading deployed resources. 
+2023-01-25 20:17:53.867424Z: [Thread 9024] (Msg 1/1) BIP9907I: Initializing deployed resources. 
+2023-01-25 20:17:53.869416Z: [Thread 9024] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 20:17:54.213604Z: [Thread 9024] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 20:17:54.214012Z: [Thread 9024] (Msg 1/1) BIP2269I: Deployed resource 'RouteFlow' (uuid='RouteFlow',type='MessageFlow') started successfully. 
+2023-01-25 20:17:54.652524Z: [Thread 9104] (Msg 1/1) BIP2866I: IBM App Connect Enterprise administration security is inactive. 
+2023-01-25 20:17:54.663908Z: [Thread 9104] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7600' for 'RestAdmin http' connections. 
+2023-01-25 20:17:54.673864Z: [Thread 9024] (Msg 1/1) BIP1991I: Integration server has finished initialization. 
+2023-01-25 20:32:37.959212Z: [Thread 9038] (Msg 1/1) BIP2152I: Configuration message received. 
+2023-01-25 20:32:37.967872Z: [Thread 9038] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 20:32:40.661268Z: [Thread 9038] (Msg 1/1) BIP2271I: Deployed resource 'RouteFlow' (uuid='RouteFlow',type='MessageFlow') successfully stopped. 
+2023-01-25 20:32:40.661368Z: [Thread 9038] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 20:32:40.719984Z: [Thread 9038] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 20:32:41.222492Z: [Thread 9038] (Msg 1/1) BIP9342I: Created compiled 'XMLNSC' schema file 'RoutingApp/$mqsiApplication.bir'. 
+2023-01-25 20:32:41.270000Z: [Thread 9038] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 20:32:41.270504Z: [Thread 9038] (Msg 1/1) BIP2269I: Deployed resource 'RouteFlow' (uuid='RouteFlow',type='MessageFlow') started successfully. 
+2023-01-25 20:32:41.270588Z: [Thread 9038] (Msg 1/1) BIP9332I: Application 'RoutingApp' has been changed successfully. 
+2023-01-25 20:32:41.270632Z: [Thread 9038] (Msg 1/1) BIP9326I: The source 'RoutingAppproject.generated.bar' has been successfully deployed. 
+2023-01-25 20:32:41.271584Z: [Thread 9038] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2023-01-25 20:38:27.407538Z: [Thread 9040] (Msg 1/1) BIP2152I: Configuration message received. 
+2023-01-25 20:38:27.442632Z: [Thread 9040] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 20:38:32.444848Z: [Thread 9040] (Msg 1/1) BIP2271I: Deployed resource 'RouteFlow' (uuid='RouteFlow',type='MessageFlow') successfully stopped. 
+2023-01-25 20:38:32.444932Z: [Thread 9040] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 20:38:32.501186Z: [Thread 9040] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 20:38:32.570504Z: [Thread 9040] (Msg 1/1) BIP9342I: Created compiled 'XMLNSC' schema file 'RoutingApp/$mqsiApplication.bir'. 
+2023-01-25 20:38:32.597222Z: [Thread 9040] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 20:38:32.597476Z: [Thread 9040] (Msg 1/1) BIP2269I: Deployed resource 'RouteFlow' (uuid='RouteFlow',type='MessageFlow') started successfully. 
+2023-01-25 20:38:32.597522Z: [Thread 9040] (Msg 1/1) BIP9332I: Application 'RoutingApp' has been changed successfully. 
+2023-01-25 20:38:32.597550Z: [Thread 9040] (Msg 1/1) BIP9326I: The source 'RoutingAppproject.TestMode.bar' has been successfully deployed. 
+2023-01-25 20:38:32.597694Z: [Thread 9040] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2023-01-25 20:58:06.973748Z: [Thread 9035] (Msg 1/1) BIP2152I: Configuration message received. 
+2023-01-25 20:58:06.985553Z: [Thread 9035] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 20:58:10.128555Z: [Thread 9035] (Msg 1/1) BIP2271I: Deployed resource 'RouteFlow' (uuid='RouteFlow',type='MessageFlow') successfully stopped. 
+2023-01-25 20:58:10.128678Z: [Thread 9035] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 20:58:10.151661Z: [Thread 9035] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 20:58:10.201290Z: [Thread 9035] (Msg 1/1) BIP9342I: Created compiled 'XMLNSC' schema file 'RoutingApp/$mqsiApplication.bir'. 
+2023-01-25 20:58:10.237590Z: [Thread 9035] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 20:58:10.237816Z: [Thread 9035] (Msg 1/1) BIP2269I: Deployed resource 'RouteFlow' (uuid='RouteFlow',type='MessageFlow') started successfully. 
+2023-01-25 20:58:10.237871Z: [Thread 9035] (Msg 1/1) BIP9332I: Application 'RoutingApp' has been changed successfully. 
+2023-01-25 20:58:10.237898Z: [Thread 9035] (Msg 1/1) BIP9326I: The source 'RoutingAppproject.TestMode.bar' has been successfully deployed. 
+2023-01-25 20:58:10.238468Z: [Thread 9035] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2023-01-25 20:59:33.233170Z: [Thread 9033] (Msg 1/1) BIP2152I: Configuration message received. 
+2023-01-25 20:59:33.241386Z: [Thread 9033] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 20:59:36.510548Z: [Thread 9033] (Msg 1/1) BIP2271I: Deployed resource 'RouteFlow' (uuid='RouteFlow',type='MessageFlow') successfully stopped. 
+2023-01-25 20:59:36.510648Z: [Thread 9033] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 20:59:36.540748Z: [Thread 9033] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 20:59:36.605552Z: [Thread 9033] (Msg 1/1) BIP9342I: Created compiled 'XMLNSC' schema file 'RoutingApp/$mqsiApplication.bir'. 
+2023-01-25 20:59:36.638252Z: [Thread 9033] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 20:59:36.638828Z: [Thread 9033] (Msg 1/1) BIP2269I: Deployed resource 'RouteFlow' (uuid='RouteFlow',type='MessageFlow') started successfully. 
+2023-01-25 20:59:36.638884Z: [Thread 9033] (Msg 1/1) BIP9332I: Application 'RoutingApp' has been changed successfully. 
+2023-01-25 20:59:36.638912Z: [Thread 9033] (Msg 1/1) BIP9326I: The source 'RoutingAppproject.generated.bar' has been successfully deployed. 
+2023-01-25 20:59:36.639056Z: [Thread 9033] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2023-01-25 20:59:47.880640Z: [Thread 9032] (Msg 1/1) BIP2152I: Configuration message received. 
+2023-01-25 20:59:47.887584Z: [Thread 9032] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 20:59:52.669596Z: [Thread 9032] (Msg 1/1) BIP2271I: Deployed resource 'RouteFlow' (uuid='RouteFlow',type='MessageFlow') successfully stopped. 
+2023-01-25 20:59:52.669676Z: [Thread 9032] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 20:59:52.701308Z: [Thread 9032] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 20:59:52.760896Z: [Thread 9032] (Msg 1/1) BIP9342I: Created compiled 'XMLNSC' schema file 'RoutingApp/$mqsiApplication.bir'. 
+2023-01-25 20:59:52.789360Z: [Thread 9032] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 20:59:52.789716Z: [Thread 9032] (Msg 1/1) BIP2269I: Deployed resource 'RouteFlow' (uuid='RouteFlow',type='MessageFlow') started successfully. 
+2023-01-25 20:59:52.789792Z: [Thread 9032] (Msg 1/1) BIP9332I: Application 'RoutingApp' has been changed successfully. 
+2023-01-25 20:59:52.789860Z: [Thread 9032] (Msg 1/1) BIP9326I: The source 'RoutingAppproject.TestMode.bar' has been successfully deployed. 
+2023-01-25 20:59:52.790560Z: [Thread 9032] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2023-01-25 21:04:17.793506Z: [Thread 9033] (Msg 1/1) BIP2152I: Configuration message received. 
+2023-01-25 21:04:17.822530Z: [Thread 9033] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 21:04:22.150772Z: [Thread 9033] (Msg 1/1) BIP2271I: Deployed resource 'RouteFlow' (uuid='RouteFlow',type='MessageFlow') successfully stopped. 
+2023-01-25 21:04:22.150862Z: [Thread 9033] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 21:04:22.175242Z: [Thread 9033] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 21:04:22.223202Z: [Thread 9033] (Msg 1/1) BIP9342I: Created compiled 'XMLNSC' schema file 'RoutingApp/$mqsiApplication.bir'. 
+2023-01-25 21:04:22.256042Z: [Thread 9033] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 21:04:22.256988Z: [Thread 9033] (Msg 1/1) BIP2269I: Deployed resource 'RouteFlow' (uuid='RouteFlow',type='MessageFlow') started successfully. 
+2023-01-25 21:04:22.257054Z: [Thread 9033] (Msg 1/1) BIP9332I: Application 'RoutingApp' has been changed successfully. 
+2023-01-25 21:04:22.257078Z: [Thread 9033] (Msg 1/1) BIP9326I: The source 'RoutingAppproject.TestMode.bar' has been successfully deployed. 
+2023-01-25 21:04:22.257222Z: [Thread 9033] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2023-01-25 21:05:04.636723Z: [Thread 9024] (Msg 1/1) BIP1989I: Integration server is terminating due to a shutdown event. 
+2023-01-25 21:05:06.993474Z: [Thread 9024] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 21:05:09.956706Z: [Thread 9024] (Msg 1/1) BIP2271I: Deployed resource 'RouteFlow' (uuid='RouteFlow',type='MessageFlow') successfully stopped. 
+2023-01-25 21:05:10.757106Z: [Thread 9024] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'RoutingApp' of type 'Application'. 
+2023-01-25 21:05:11.829560Z: [Thread 9024] (Msg 1/1) BIP1992I: Integration server 'TEST_SERVER' stopped. 

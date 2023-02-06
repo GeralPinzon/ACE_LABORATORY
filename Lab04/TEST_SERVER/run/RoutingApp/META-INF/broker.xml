@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="/home/ubuntu/IBM/ACET12/workspace/Lab04/TestModeBarFiles/RoutingAppproject.TestMode.bar" deployTimestamp="2023-01-25 21:04:17">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="RouteFlow" deployBarfile="/home/ubuntu/IBM/ACET12/workspace/Lab04/TestModeBarFiles/RoutingAppproject.TestMode.bar" deployTimestamp="2023-01-25 21:04:17">
+    <ConfigurableProperty uri="RouteFlow#FAILURE.AddRequestToGroup">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#FAILURE.GroupRequestFolderName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#FAILURE.GroupRequestTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#FAILURE.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#FAILURE.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#FAILURE.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#FAILURE.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#FAILURE.connection" override="CCDT">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#FAILURE.destinationQueueManagerName" override="QM1">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#FAILURE.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#FAILURE.policyUrl" override="{StoresMQ}:PolicyMQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#FAILURE.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#FAILURE.queueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#FAILURE.queueName" override="FAILURE">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#FAILURE.replyToQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#FAILURE.replyToQMgr">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#FAILURE.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#FAILURE.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#FAILURE.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#FAILURE.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#Route.distributionMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREA.AddRequestToGroup">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREA.GroupRequestFolderName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREA.GroupRequestTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREA.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREA.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREA.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREA.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREA.connection" override="CCDT">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREA.destinationQueueManagerName" override="QM1">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREA.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREA.policyUrl" override="{StoresMQ}:PolicyMQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREA.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREA.queueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREA.queueName" override="STOREA">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREA.replyToQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREA.replyToQMgr">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREA.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREA.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREA.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREA.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREB.AddRequestToGroup">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREB.GroupRequestFolderName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREB.GroupRequestTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREB.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREB.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREB.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREB.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREB.connection" override="CCDT">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREB.destinationQueueManagerName" override="QM1">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREB.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREB.policyUrl" override="{StoresMQ}:PolicyMQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREB.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREB.queueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREB.queueName" override="STOREB">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREB.replyToQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREB.replyToQMgr">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREB.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREB.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREB.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREB.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREC.AddRequestToGroup">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREC.GroupRequestFolderName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREC.GroupRequestTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREC.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREC.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREC.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREC.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREC.connection" override="CCDT">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREC.destinationQueueManagerName" override="QM1">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREC.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREC.policyUrl" override="{StoresMQ}:PolicyMQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREC.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREC.queueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREC.queueName" override="STOREC">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREC.replyToQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREC.replyToQMgr">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREC.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREC.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREC.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STOREC.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STORES.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STORES.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STORES.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STORES.additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STORES.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STORES.componentLevel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STORES.connection" override="CCDT">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STORES.destinationQueueManagerName" override="MQ1">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STORES.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STORES.policyUrl" override="{StoresMQ}:PolicyMQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STORES.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STORES.queueName" override="STORES.IN_Geral">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STORES.resetBrowseTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STORES.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STORES.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STORES.serializationToken">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STORES.topicProperty">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STORES.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#STORES.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="RouteFlow#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

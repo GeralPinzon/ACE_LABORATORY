@@ -1,0 +1,7 @@
+
+====== Starting plaintext trace (process ID 9024 - integration_server.TEST_SERVER) ======
+=== Build ib000-L221122.2891 (S000-L221121.11996) - IBM App Connect Enterprise 12.0.7.0 ===
+=== Platform Linux / x86_64 / 5.15.0-1028-aws ===
+=== Timestamps are formatted in local time, which is GMT ===
+=== Time now 2023-01-25 20:17:49.022180 ===
+
